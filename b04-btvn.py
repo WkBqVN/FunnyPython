@@ -146,7 +146,7 @@ print(number_list_bai08)
 res_list_bai08 =[]
 count_list = 0
 for i in range(0,len(number_list_bai08)):
-    for t in range(i,len(number_list_bai08)):
+    for t in range(i+1,len(number_list_bai08)):
         if number_list_bai08[i] > number_list_bai08[t]:
             count_list +=1
             res_list_bai08.append([number_list_bai08[i],number_list_bai08[t]])
