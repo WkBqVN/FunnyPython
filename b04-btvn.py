@@ -170,17 +170,6 @@ res_matrix = [
         [0,0,0],
         [0,0,0]
 ]
-input_position_bai09 = int(input("Chon vi tri ma tran dau tien(1 hoac 2): (luu y vi tri ma tran anh huong ket qua)"))
-if input_position_bai09 != 1 and input_position_bai09 != 2:
-        print("ban nhap sai input vui long khoi dong lai chuong trinh")
-        input("An Enter de ket thuc chuong trinh.")
-        exit()
-
-if input_position_bai09 == 2:
-       temp_matrix = first_matrix
-       first_matrix = second_matrix
-       second_matrix = temp_matrix          
-
 for i in range(0,3):
         for j in range(0,3):
                 for k in range(0,3):
