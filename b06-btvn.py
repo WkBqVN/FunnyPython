@@ -105,7 +105,6 @@ res_list_key_max = set();
 while len(res_list_key_max) < 3:
     res_list_key_max.add(max(my_dict_04.keys()))
     my_dict_04.pop(max(my_dict_04.keys()))
-    max(my_dict_04.keys())
 print(res_list_key_max)
 
 
